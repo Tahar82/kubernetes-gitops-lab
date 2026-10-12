@@ -14,6 +14,6 @@ data:
       <h1>Bienvenue sur mon cluster Kubernetes !</h1>
       <h2>Application déployée avec Argo CD</h2>
       <p>GitHub -> Argo CD -> Kubernetes -> Nginx</p>
-      <p>Version 1.0</p>
+      <p>Version 2.0</p>
     </body>
     </html>
