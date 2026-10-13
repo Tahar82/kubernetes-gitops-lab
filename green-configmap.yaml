@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-green-html
+  namespace: default
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <title>Nginx Green</title>
+      <style>
+        body {
+          background-color: #22c55e;
+          color: white;
+          font-family: Arial, sans-serif;
+          text-align: center;
+          padding-top: 100px;
+        }
+      </style>
+    </head>
+    <body>
+      <h1>Bienvenue sur Nginx Green !</h1>
+      <h2>Application Kubernetes - Version 1.0</h2>
+      <p>Déployée avec GitHub, Argo CD et Kubernetes.</p>
+    </body>
+    </html>
